@@ -1,0 +1,100 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #1a1a1a;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .login-container {
+            background-color: #242424;
+            padding: 40px;
+            border-radius: 20px;
+            width: 320px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+
+        .login-title {
+            color: white;
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 30px;
+            background: linear-gradient(45deg, #4e7fff, #9c55ff);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .avatar i {
+            color: white;
+            font-size: 40px;
+        }
+
+        .input-field {
+            background-color: #2f2f2f;
+            border: none;
+            padding: 15px;
+            border-radius: 8px;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+            color: white;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .input-field::placeholder {
+            color: #808080;
+        }
+
+        .login-btn {
+            background-color: #ff4757;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 8px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 10px;
+        }
+
+        .login-btn:hover {
+            background-color: #ff5e6c;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1 class="login-title">Login</h1>
+        <div class="avatar">
+            <i class="fas fa-user"></i>
+        </div>
+        <form action="login.php" method="post">
+            <input type="text" name="username"  class="input-field" placeholder="Username">
+            <input type="password" name="password" class="input-field" placeholder="Password">
+            <button type="submit" class="login-btn">Log in</button>
+        </form>
+    </div>
+</body>
+</html>
