@@ -2,14 +2,16 @@
 
 Retail businesses rely on efficient tools to manage inventory, ensure accurate sales tracking, and improve customer satisfaction. MSB POS provides a tailored solution for these needs.
 
-🛠️ Tech Stack
+
+Tech Stack
 
 🔹 Frontend: HTML5, CSS3, JavaScript, Tailwind CSS
 🔹 Backend: PHP 
 🔹 Database:	Microsoft SQL Server
 🔹 Server:	Apache (XAMPP / WAMP compatible)
 
-✨ Key Features
+
+Key Features
 
 📦 Inventory Management: Add, update, and monitor stock levels in real-time.
 
@@ -23,12 +25,10 @@ Retail businesses rely on efficient tools to manage inventory, ensure accurate s
 
 🔐 Data Integrity & Validation: Prevent invalid transactions and secure data with backend validation.
 
-📈 Future Improvements
+
+Future Improvements
 
 🔹 Barcode scanning integration
-
 🔹 User analytics and product performance tracking
-
 🔹 Multi-branch support
-
 🔹 Advanced user management & permissions
